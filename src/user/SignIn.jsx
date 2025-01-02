@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Eye, EyeOff } from 'lucide-react'; // Eye icons for password toggle
+import {Link} from 'react-router-dom'
 
 const SignIn = () => {
   const [email, setEmail] = useState('');
@@ -89,9 +90,9 @@ const SignIn = () => {
         {/* Sign Up Link */}
         <div className="text-sm text-center mt-4">
           Don't have an account?{' '}
-          <a href="/signup" className="text-blue-500 hover:underline">
-            Sign Up
-          </a>
+          <Link to='/signup' className="text-blue-500 hover:underline" >
+          Register
+       </Link>
         </div>
       </div>
     </div>

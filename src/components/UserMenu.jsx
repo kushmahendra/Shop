@@ -27,8 +27,8 @@ const UserMenu = ({ isVisible }) => {
     <div className="absolute top-full right-0 mt-1 w-48 bg-white border border-gray-100 rounded-md shadow-sm py-2">
       {/* User Links */}
       <div className="py-1">
-        <Link to='/signin' className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">Sign In </Link>
-        <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">Register</a>
+        <Link to='/signin' className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">Log In </Link>
+        <Link to='/signup' className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"> Register</Link>
         <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">My account</a>
         <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">Wishlist (0)</a>
         <a href="#" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50">Compare (0)</a>
